@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Envoyez vos fichiers</h1>
+      <span>Le fichier doit être Zip, Eps, Avi</span>
+
+      <div class="drop">
+        <span
+          class="iconify"
+          data-inline="false"
+          data-icon="ant-design:folder-open-filled"
+        ></span>
+        <span>Glissez déposez vos fichiers ici</span>
+      </div>
+
+      <div class="load-files">
+        <span>Fichiers upload</span>
+
+        <!-- <div class="content-load">
+          <img class="folder" draggable="false" src="zip.svg" alt="" />
+          <div class="content-progress">
+            <div class="file-infos">
+              <p>Defi</p>
+              <span>100%</span>
+            </div>
+            <div class="progress-bar zip"></div>
+          </div>
+          <div class="bulle bulle--valid">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:check"
+              style="color: #ffffff; font-size: 24px"
+            ></span>
+          </div>
+        </div> -->
+
+        <!-- <div class="content-load">
+          <img class="folder" draggable="false" src="eps.svg" alt="" />
+          <div class="content-progress">
+            <div class="file-infos">
+              <p>Defi</p>
+              <span>100%</span>
+            </div>
+            <div class="progress-bar eps"></div>
+          </div>
+          <div class="bulle bulle--valid">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:check"
+              style="color: #ffffff; font-size: 24px"
+            ></span>
+          </div>
+        </div> -->
+
+        <!-- <div class="content-load">
+          <img class="folder" draggable="false" src="avi.svg" alt="" />
+          <div class="content-progress">
+            <div class="file-infos">
+              <p>Defi</p>
+              <span>100%</span>
+            </div>
+            <div class="progress-bar avi"></div>
+          </div>
+          <div class="bulle bulle--fail">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:cross"
+              style="color: #ffffff; font-size: 24px"
+            ></span>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <div class="container-folders">
+      <img class="folder" id="zip" draggable="true" src="zip.svg" alt="zip" />
+      <!-- <img class="folder" id="eps" draggable="true" src="eps.svg" alt="zip" />
+      <img class="folder" id="avi" draggable="true" src="avi.svg" alt="zip" /> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
